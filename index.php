@@ -9,7 +9,7 @@
 </tr>
 <tr>
 <td>Process ID:</td>
-<td><%= System.Diagnostics.Process.GetCurrentProcess().Id %></td>
+<td><?= System.Diagnostics.Process.GetCurrentProcess().Id?></td>
 </tr>
 <tr>
 <td>SlotName:</td>
